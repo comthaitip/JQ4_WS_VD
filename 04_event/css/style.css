@@ -1,0 +1,38 @@
+/*
+Author & Facebook: Kasiti Panthanom
+E-Mail: kasiti@cityhubs.net, comthaitip@gmail.com
+*/
+/* 
+    Created on : 19 พ.ค. 2557, 4:00:55
+    Author     : Super User
+*/
+#commentForm { 
+    width: 600px; 
+    font-size: 16px;
+}
+
+
+#commentForm label { 
+    width: 250px; 
+}
+#commentForm label.error, #commentForm input.submit { 
+    margin-left: 253px; 
+}
+
+form.cmxform label.error, label.error {
+    color: #FF0000;
+    font-style: italic;
+}
+
+form.cmxform label {
+    display: inline-block;
+    line-height: 1.8;
+    vertical-align: top;
+}
+
+#box3 {
+    width: 200px;
+    height: 100px;
+    background: #f00;
+    color: #fff;
+}

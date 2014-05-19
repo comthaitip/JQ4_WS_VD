@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+Author & Facebook: Kasiti Panthanom
+E-Mail: kasiti@cityhubs.net, comthaitip@gmail.com
+-->
+<html>
+    <head>
+        <title>Base Regex</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/my.js"></script>
+    </head>
+    <body>
+        <div class="example">
+            <form method="post">
+                <table width="100%">
+
+                    <tr>
+                        <td width="24%">Enter Email Address : </td>
+                        <td>
+                            <input id="email" type="text" name="email" onkeyup="checkEmail(this.value)" />
+                            <span class="error_message email_error" style="display:none;">Please enter valid email address.</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Enter Website Url : </td>
+                        <td><input id="url" type="text" name="url" onkeyup="checkUrl(this.value)" />
+                            <span class="error_message url_error" style="display:none;">Please enter valid url.</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Enter Username : </td>
+                        <td><input id="username" type="text" name="username" onkeyup="checkUsername(this.value)" />
+                            <span class="error_message username_error" style="display:none;">Please enter username 4-15 characters.</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Enter Password : </td>
+                        <td><input id="password" type="text" name="password" onkeyup="checkPassword(this.value)" />
+                            <span class="error_message password_error" style="display:none;">Please enter password 5-15 characters.</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Enter Strong Password : </td>
+                        <td><input id="spassword" type="text" name="spassword" onkeyup="checkSPassword(this.value)" />
+                            <span class="error_message spassword_error" style="display:none;">Enter minimum 8 chars with atleast 1 number, lower, upper &amp; special(@#$%&) char.</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><input type="button" name="submit" value="Validate" onclick="validateAll()" /></td>
+                    </tr>
+                </table>
+            </form>
+           
+        </div>
+    </body>
+</html>

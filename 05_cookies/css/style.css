@@ -1,0 +1,55 @@
+/*
+Author & Facebook: Kasiti Panthanom
+E-Mail: kasiti@cityhubs.net, comthaitip@gmail.com
+*/
+body {
+    font-family: Tahoma,Verdana;
+    font-size: 1.2em;
+    background: #000040;
+}
+
+#jsPanel {
+   
+    padding: 20px;
+}
+
+h1 {
+    border-bottom: 1px solid #eeffff;
+    padding-bottom: 10px;
+    color: #8B4500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#content {
+    margin-top: 20px;
+     background: #eeeeee;
+    background: -moz-linear-gradient(top, #feffff 0%, #ddf1f9 74%, #c4e1ed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffff), color-stop(74%,#ddf1f9), color-stop(100%,#c4e1ed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #feffff 0%,#ddf1f9 74%,#c4e1ed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #feffff 0%,#ddf1f9 74%,#c4e1ed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #feffff 0%,#ddf1f9 74%,#c4e1ed 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 74%,#c4e1ed 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#c4e1ed',GradientType=0 ); /* IE6-9 */
+    border: 2px solid #8B4513;
+    border-radius: 20px;
+}
+
+#mainImg {
+    margin-right: 20px;
+    
+}
+
+#imgPos {
+    padding: 20px;
+}
+
+#result {
+    border: #800 2px dashed;
+    padding: 20px;
+    margin: 40px;
+}
+
+.btn {
+    margin-bottom: 40px;
+} 

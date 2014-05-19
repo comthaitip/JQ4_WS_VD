@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+Author & Facebook: Kasiti Panthanom
+E-Mail: kasiti@cityhubs.net, comthaitip@gmail.com
+-->
+<html>
+    <head>
+        <title>Event</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/my.js"></script>
+    </head>
+    <body>
+        <p id="para1">Para: 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed scelerisque metus. Curabitur arcu libero, congue eu mauris eu, blandit congue quam. Pellentesque sagittis, dolor in varius dapibus, enim neque consectetur libero, vitae pretium turpis dui nec dui. In vitae tortor nec felis vestibulum porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce laoreet posuere sem, bibendum pellentesque risus facilisis vel. Aenean vitae nibh urna.</p>
+        
+        <p id="para2">Para: 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed scelerisque metus. Curabitur arcu libero, congue eu mauris eu, blandit congue quam. Pellentesque sagittis, dolor in varius dapibus, enim neque consectetur libero, vitae pretium turpis dui nec dui. In vitae tortor nec felis vestibulum porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce laoreet posuere sem, bibendum pellentesque risus facilisis vel. Aenean vitae nibh urna.</p>
+        
+        <div id="box3">
+            <p>Mouse Over Me</p>
+        </div>
+        
+        <p>Simple Comment Form</p>
+        <form class="cmxform" id="commentForm" method="get" action="">
+            <fieldset>
+                <legend>Please provide your name, email address (won't be published) and a comment</legend>
+                <p>
+                    <label for="cname">Name (required, at least 2 characters)</label>
+                    <input id="cname" name="name" minlength="2" type="text" required />
+                <p>
+                    <label for="cemail">E-Mail (required)</label>
+                    <input id="cemail" type="email" name="email" required />
+                </p>
+                <p>
+                    <label for="curl">URL (optional)</label>
+                    <input id="curl" type="url" name="url" />
+                </p>
+                <p>
+                    <label for="ccomment">Your comment (required)</label>
+                    <textarea id="ccomment" name="comment" required></textarea>
+                </p>
+                <p>
+                    <input class="submit" type="submit" value="Submit"/>
+                </p>
+            </fieldset>
+        </form>
+        
+        
+    </body>
+</html>
